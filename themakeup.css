@@ -1,0 +1,83 @@
+
+/*The Font*/
+@font-face {
+    font-family: Nunito;
+    src: url(nunito-regular.woff);
+}
+/*The Not Font*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+header{
+    background-color: #0D1117;
+    color: #E6EDF3;
+    text-align: center;
+    font-family: 'Nunito';
+    padding: 20px;
+
+}
+
+nav{
+    background-color: #21262D;
+    text-align: center;
+    font-family: 'Nunito';
+    padding: 5px;
+}
+
+body{
+    background-color: #30363D;
+    
+}
+
+section{
+    background-color: #161B22;
+    color:#8B949E;
+    font-family: 'Nunito';
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+a{
+    color: #58A6FF;
+    padding:5px;
+}
+
+h1{
+    color: #E6EDF3;
+    padding: 10px;
+}
+
+h2{
+    color: #E6EDF3;
+    padding: 10px;
+}
+h3{
+    color: #E6EDF3;
+    padding: 10px;
+}
+dt{
+    color: #E6EDF3;
+}
+dd{
+    padding-bottom: 70px;
+}
+img{
+    float: right;
+    margin-left: 15px;
+    width: 200px;
+    height: 120px;  
+}
+footer{
+    font-family: 'Nunito';
+    background-color: #21262D;
+    color: #E6EDF3;
+    padding: 20px;
+    text-align: center;
+}
+
